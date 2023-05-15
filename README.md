@@ -23,11 +23,11 @@ The model is to created thru sys.ML_TRAIN on airflight.airlines_train which it h
 4. Load The Model
 Once the model is created.   It is registered within the ML_SCHEMA_admin.MODEL_CATALOG.   The table contains the models which are created under the user 'admin'.    
 
-5. Predict and Test the model
+5. Predict, Explain and Test/Score the model
 A table with 20 entries is created which is a known dataset.   It is used to test and validate the model and determine the score of the model.
 
-Calling sys.ML_PREDICT_TABLE to create 
 
+Follow the steps with 01-Import and 02-Zepplin-notebook
 
 
 
