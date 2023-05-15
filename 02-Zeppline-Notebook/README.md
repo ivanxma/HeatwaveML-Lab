@@ -62,23 +62,23 @@ select @score
 
 Interpret the result based on the meric.   (Ref : https://dev.mysql.com/doc/heatwave/en/mys-hwaml-ml-score.html)
 - classification metrics:
-  . accuracy: Computes the fraction of labels a model predicts correctly
-  . balanced_accuracy: Computes the balanced accuracy for imbalanced datasets
-  . precision: Computes precision
-  . recall: Computes the recall
-  . f1: Computes the F1 score
-  . f1_micro: Computes the F1 score (micro-averaged)
-  . f1_macro: Computes the F1 score (macro-averaged)
-  . f1_weighted: Computes the F1 score (weighted)
-  . f1_samples: Computes the F1 score (by multilabel sample)
-  . recall_micro: Computes the recall (micro-averaged)
-  . recall_macro: Computes the recall (macro-averaged)
-  . recall_weighted: Computes the recall (weighted)
-  . recall_samples: Computes the recall (by multilabel sample)
-  . precision_micro: Computes precision (micro-averaged)
-  . precision_macro: Computes precision (macro-averaged)
-  . precision_weighted: Computes precision (weighted)
-  . precision_samples: Computes precision (by multilabel sample)
+  * accuracy: Computes the fraction of labels a model predicts correctly
+  * balanced_accuracy: Computes the balanced accuracy for imbalanced datasets
+  * precision: Computes precision
+  * recall: Computes the recall
+  * f1: Computes the F1 score
+  * f1_micro: Computes the F1 score (micro-averaged)
+  * f1_macro: Computes the F1 score (macro-averaged)
+  * f1_weighted: Computes the F1 score (weighted)
+  * f1_samples: Computes the F1 score (by multilabel sample)
+  * recall_micro: Computes the recall (micro-averaged)
+  * recall_macro: Computes the recall (macro-averaged)
+  * recall_weighted: Computes the recall (weighted)
+  * recall_samples: Computes the recall (by multilabel sample)
+  * precision_micro: Computes precision (micro-averaged)
+  * precision_macro: Computes precision (macro-averaged)
+  * precision_weighted: Computes precision (weighted)
+  * precision_samples: Computes precision (by multilabel sample)
 
 
 
