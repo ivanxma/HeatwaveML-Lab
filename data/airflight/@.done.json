@@ -1,0 +1,16 @@
+{
+    "end": "2023-05-12 09:44:03",
+    "dataBytes": 15928664,
+    "tableDataBytes": {
+        "airflight": {
+            "airlines_train": 15928062,
+            "airlines_test": 602
+        }
+    },
+    "chunkFileBytes": {
+        "airflight@airlines_train@0.tsv.zst": 15928062,
+        "airflight@airlines_train@@1.tsv.zst": 0,
+        "airflight@airlines_test@0.tsv.zst": 602,
+        "airflight@airlines_test@@1.tsv.zst": 0
+    }
+}

@@ -1,0 +1,5 @@
+-- MySQLShell dump 2.0.1  Distrib Ver 8.0.33-commercial for macos13 on x86_64 - for MySQL 8.0.33 (MySQL Enterprise Server - Commercial), for macos13 (x86_64)
+--
+-- Host: 129.213.214.91
+-- ------------------------------------------------------
+-- Server version	8.0.33

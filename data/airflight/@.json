@@ -1,0 +1,40 @@
+{
+    "dumper": "mysqlsh Ver 8.0.33-commercial for macos13 on x86_64 - for MySQL 8.0.33 (MySQL Enterprise Server - Commercial)",
+    "version": "2.0.1",
+    "origin": "dumpSchemas",
+    "options": {
+        "compatibility": [
+            "strip_definers",
+            "strip_restricted_grants",
+            "ignore_missing_pks"
+        ],
+        "ocimds": true
+    },
+    "schemas": [
+        "airflight"
+    ],
+    "basenames": {
+        "airflight": "airflight"
+    },
+    "defaultCharacterSet": "utf8mb4",
+    "tzUtc": true,
+    "bytesPerChunk": 64000000,
+    "user": "admin",
+    "hostname": "ivanma-mac",
+    "server": "kaqnoqkbqzt6syrk",
+    "serverVersion": "8.0.33-u2-cloud",
+    "binlogFile": "binary-log.008238",
+    "binlogPosition": 197,
+    "gtidExecuted": "bf2962b6-3896-11ed-b95f-020017067d82:1-7987",
+    "gtidExecutedInconsistent": false,
+    "consistent": true,
+    "mdsCompatibility": true,
+    "partialRevokes": true,
+    "compatibilityOptions": [
+        "ignore_missing_pks",
+        "strip_definers",
+        "strip_restricted_grants"
+    ],
+    "capabilities": [],
+    "begin": "2023-05-12 09:43:40"
+}

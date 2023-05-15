@@ -1,0 +1,18 @@
+{
+    "schema": "airflight",
+    "includesDdl": true,
+    "includesViewsDdl": true,
+    "includesData": true,
+    "tables": [
+        "airlines_train",
+        "airlines_test"
+    ],
+    "views": [],
+    "events": [],
+    "functions": [],
+    "procedures": [],
+    "basenames": {
+        "airlines_train": "airflight@airlines_train",
+        "airlines_test": "airflight@airlines_test"
+    }
+}

@@ -1,0 +1,15 @@
+{"op":"SERVER-UUID","done":true,"timestamp":1683856488249,"uuid":"bf2962b6-3896-11ed-b95f-020017067d82"}
+{"op":"SCHEMA-DDL","done":false,"timestamp":1683856493771,"schema":"airflight"}
+{"op":"TABLE-DDL","done":false,"timestamp":1683856493771,"schema":"airflight","table":"airlines_test"}
+{"op":"TABLE-DDL","done":false,"timestamp":1683856493771,"schema":"airflight","table":"airlines_train"}
+{"op":"TABLE-DDL","done":true,"timestamp":1683856496862,"schema":"airflight","table":"airlines_test"}
+{"op":"TABLE-DDL","done":true,"timestamp":1683856497557,"schema":"airflight","table":"airlines_train"}
+{"op":"SCHEMA-DDL","done":true,"timestamp":1683856497558,"schema":"airflight"}
+{"op":"TABLE-DATA","done":false,"timestamp":1683856497561,"schema":"airflight","table":"airlines_train","chunk":0}
+{"op":"TABLE-DATA","done":false,"timestamp":1683856497561,"schema":"airflight","table":"airlines_test","chunk":0}
+{"op":"TABLE-DATA","done":false,"timestamp":1683856497561,"schema":"airflight","table":"airlines_test","chunk":1}
+{"op":"TABLE-DATA","done":false,"timestamp":1683856497561,"schema":"airflight","table":"airlines_train","chunk":1}
+{"op":"TABLE-DATA","done":true,"timestamp":1683856499713,"schema":"airflight","table":"airlines_test","chunk":1,"bytes":0,"raw_bytes":9,"rows":0}
+{"op":"TABLE-DATA","done":true,"timestamp":1683856500169,"schema":"airflight","table":"airlines_test","chunk":0,"bytes":602,"raw_bytes":327,"rows":20}
+{"op":"TABLE-DATA","done":true,"timestamp":1683856500233,"schema":"airflight","table":"airlines_train","chunk":1,"bytes":0,"raw_bytes":9,"rows":0}
+{"op":"TABLE-DATA","done":true,"timestamp":1683857435397,"schema":"airflight","table":"airlines_train","chunk":0,"bytes":15928062,"raw_bytes":5501018,"rows":539383}
