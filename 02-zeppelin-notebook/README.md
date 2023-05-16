@@ -61,7 +61,7 @@ JSON_OBJECT('prediction_explainer', 'permutation_importance'))
 
 9. Test and Validate
 ```
-CALL sys.ML_SCORE('airflight.airlines.test', 'delay', @modelname, 'balanced_accuracy', @score,null);
+CALL sys.ML_SCORE('airflight.airlines_test', 'delay', @modelname, 'balanced_accuracy', @score,null);
 select @score
 ```
 
