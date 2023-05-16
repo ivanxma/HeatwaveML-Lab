@@ -16,8 +16,8 @@
 
 ```
 Endpoint
-Connect to the DB system using a MySQL client/connector via the endpoint below. How do I connect?
-Private IP address: 10.x.y.z
+Connect to the DB system using a MySQL client/connector via the endpoint below. 
+Private IP address: 10.0.30.z
 ```
 
 - Configure VCN security list
