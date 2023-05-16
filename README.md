@@ -7,17 +7,19 @@ Reference : https://github.com/oracle-samples/heatwave-ml/
 
 - The github repository shares many sample data for AutoML testing.
 
-This Lab uses ONLY the airflight sample data.  With Zepplines as tools to interact with the MDS Heatwave AutoML.
+This Lab uses ONLY the airflight sample data.  With Zepplin as tools to interact with the MDS Heatwave AutoML.
 
 1. Data Import
 A sample dump file is prepared.  This is a ready to use 'dump' for airflight sample data.
 You are required to import the data using mysqlsh on OCI Cloud Shell.   Please follow the instruction with 01-Import folder.
 
 
-2. Access to Heatwave AutoML using Zeppline
+2. Access to Heatwave AutoML using Zepplin
+You should be able to use Cloud Shell from OCI Console with Web Browser to access MDS/Heatwave instance Private IP address thru the Private Network Definition.
+
 
 3. Training the airflight data
-The model is to created thru sys.ML_TRAIN on airflight.airlines_train which it has over 25K rows of data.   The model is to determines the flight delay based on the airline flight data.
+The model is to created thru sys.ML_TRAIN(...) on airflight.airlines_train which it has over 25K rows of data.   The model is to determines the flight delay based on the airline flight data / features. 
 
 
 4. Load The Model
