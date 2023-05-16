@@ -1,29 +1,32 @@
-# This Lab Session is to use Zepplin as UI interface
-# to work with Heatwave AutoML
+# This Lab Session is to use Zeppelin as UI interface to work with Heatwave AutoML
 
 
-1. Start Web Browser and login to Zeppline 
-- e.g. http://<public ip>/zepplin/
+1. Start Web Browser and login to Zeppeline 
+- e.g. http://<&gt>public ip<&lt>/zeppelin/
+    [ note down the Load Balancer External IP from kubectl get svc -n ingress-nginx ]
 
-2. Create NoteBook with INTERPRETER created with previous exercise to work with Heatwave
+2. Create NoteBook with INTERPRETER created with previous Lab to work with Heatwave
 - On the top menu bar, Choose Notebook and select 'Create a new note'
   - fill up with name
-  - choose Interpreter with MySQL Heatwave
+  - choose Interpreter with MySQL Heatwave connection
 
-3. SELECT on the airflight training data 
+3. SELECT on the airflight training data - This is get a glimpse of the training dataset.  
 ```
 use airflight;
 select * from airlines_train limit 10;
 select count(*) from airlines_train;
 ```
 
-4. Train the model with the training data
+4. Train the model with the training data 
+- To define the model handle (@modelname) as 'flightmodel'
+- To invoke sys.ML_TRAIN ( ... ) to build model based oon the traiing daa set from a table.
 ```
 select @modelname:='flightmodel';
 call sys.ML_TRAIN('airflight.airlines_train', 'Delay',JSON_OBJECT('task', 'classification'),@modelname);
 ```
 
 5. Load the model
+- This is to call sys.ML_MODEL_LOAD(...) to allow next level operation.
 ```
 select @modelname:='flightmodel';
 call sys.ML_MODEL_LOAD(@modelname, null);
@@ -31,7 +34,7 @@ call sys.ML_MODEL_LOAD(@modelname, null);
 
 
 6. Exploring the ML_SCHEMA_<user>.MODEL_CATALOG for the trained model information
-The table ML_SCHEMA_<user>.MODEL_CATALOG stores all the models with the user.   The previous example with given model handle can be retrieved withe critia model_handle=@modelname.
+- The table ML_SCHEMA_<user>.MODEL_CATALOG stores all the models with the user.   The previous example with given model handle can be retrieved withe critia model_handle=@modelname.
 
 ```
 select @modelname:='flightmodel';
@@ -40,6 +43,8 @@ select * from airlines_test;
 ```
 
 7. Predict a given flight data
+- using one row of test data from previous step to create a prediction.  @myrow contains the row content for the test data without the outcome "delay".a 
+- Calling to a function sys.ML_PREDICT_ROW to return JSON output where we determine the delay with possibility of the output.
 ```
 select @modelname:='flightmodel';
 select @myrow:=JSON_OBJECT("Airline", "DL", "Flight", "1002", "AirportFrom", "SLC", "AirportTo", "JFK", "DayOfWeek", "5", "Time", "1425", "Length", "264"  );

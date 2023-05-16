@@ -43,7 +43,10 @@ This is to setup Cloud Shell networking with the MDS private subnet.  By doing s
     - airflight.tar
 ```
 wget https://github.com/ivanxma/HeatwaveML-Lab/blob/main/data/airflight.tar
+tar -xvf airflight.tar
 ```
+
+The tar -xvf should create airflight folder which contains the sample data for import.
 
 5. Running mysqlsh on Cloud Shell to import the AirFlight Data
 Start 'mysqlsh' on OCI Cloud Shell
@@ -68,8 +71,19 @@ Type '\help' or '\?' for help; '\quit' to exit.
 
 - Import the data
 ```
- MySQL ......   JS > util.loadDump('../data/airflight', null)
+ MySQL ......   JS > util.loadDump('./airflight', null)
 ```
+
+- Check the data if it is import successfully
+```
+ MySQL ......   JS > \sql
+ MySQL ......   SQL > show databases;
+ MySQL ......   SQL > use airflight;
+ MySQL ......   SQL > show tables
+```
+
+
+
 
 
 

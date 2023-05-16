@@ -7,14 +7,14 @@ Reference : https://github.com/oracle-samples/heatwave-ml/
 
 - The github repository shares many sample data for AutoML testing.
 
-This Lab uses ONLY the airflight sample data.  With Zepplin as tools to interact with the MDS Heatwave AutoML.
+This Lab uses ONLY the airflight sample data.  With Zeppelin as tools to interact with the MDS Heatwave AutoML.
 
 1. Data Import
 A sample dump file is prepared.  This is a ready to use 'dump' for airflight sample data.
 You are required to import the data using mysqlsh on OCI Cloud Shell.   Please follow the instruction with 01-Import folder.
 
 
-2. Access to Heatwave AutoML using Zepplin
+2. Access to Heatwave AutoML using Zeppelin
 You should be able to use Cloud Shell from OCI Console with Web Browser to access MDS/Heatwave instance Private IP address thru the Private Network Definition.
 
 
@@ -29,7 +29,7 @@ Once the model is created.   It is registered within the ML_SCHEMA_admin.MODEL_C
 A table with 20 entries is created which is a known dataset.   It is used to test and validate the model and determine the score of the model.
 
 
-Follow the steps with 01-Import and 02-zepplin-notebook
+Follow the steps with 01-Import and 02-zeppelin-notebook
 
 
 
