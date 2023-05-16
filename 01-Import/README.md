@@ -42,7 +42,7 @@ This is to setup Cloud Shell networking with the MDS private subnet.  By doing s
   - data
     - airflight.tar
 ```
-wget https://github.com/ivanxma/HeatwaveML-Lab/blob/main/data/airflight.tar
+wget https://github.com/ivanxma/HeatwaveML-Lab/raw/main/data/airflight.tar
 tar -xvf airflight.tar
 ```
 
