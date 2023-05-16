@@ -21,13 +21,13 @@ Private IP address: 10.x.y.z
 ```
 
 - Configure VCN security list
-a. On the OCI Console Menu, Choose Networking --> Virtual cloud network
-b. Choose oke-vcn in the VCN list
-c. Choose the mds-subnet-regional 
-d. Choose mds-seclist from the Security Lists
-e. Click "Add Ingress Rules"
-  * fill in Source CIDR with 10.0.0.0/16
-  * fill in Destintation Port with 3306
+  *. On the OCI Console Menu, Choose Networking --> Virtual cloud network
+  *. Choose oke-vcn in the VCN list
+  *. Choose the mds-subnet-regional 
+  *. Choose mds-seclist from the Security Lists
+  *. Click "Add Ingress Rules"
+    * fill in Source CIDR with 10.0.0.0/16
+    * fill in Destintation Port with 3306
   * Click Add Ingress Rules
 
 
