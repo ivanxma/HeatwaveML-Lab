@@ -30,7 +30,9 @@ Once the model is created.   It is registered within the ML_SCHEMA_admin.MODEL_C
 A table with 20 entries is created which is a known dataset.   It is used to test and validate the model and determine the score of the model.
 
 
-Follow the steps with 01-Import and 02-zeppelin-notebook
+Follow the steps with 
+* [01-Import](https://github.com/ivanxma/HeatwaveML-Lab/tree/main/01-Import)
+* [02-zeppelin-notebook](https://github.com/ivanxma/HeatwaveML-Lab/tree/main/02-zeppelin-notebook)
 
 
 
