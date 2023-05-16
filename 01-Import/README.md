@@ -39,7 +39,11 @@ This is to setup Cloud Shell networking with the MDS private subnet.  By doing s
 
 4. Download the AirFlight data for import
 - The data is located within this github repository under
-  - data/airflight
+  - data
+    - airflight.tar
+```
+wget https://github.com/ivanxma/HeatwaveML-Lab/blob/main/data/airflight.tar
+```
 
 5. Running mysqlsh on Cloud Shell to import the AirFlight Data
 Start 'mysqlsh' on OCI Cloud Shell
