@@ -28,7 +28,7 @@ Private IP address: 10.x.y.z
   * Click "Add Ingress Rules"
     * fill in Source CIDR with 10.0.0.0/16
     * fill in Destintation Port with 3306
-  * Click Add Ingress Rules
+    * Click Add Ingress Rules
 
 
 
