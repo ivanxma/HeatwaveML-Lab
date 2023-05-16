@@ -1,6 +1,6 @@
 # This Lab is to import Airflight demo data into an existing Heatwave AutoML Database
 # Environment :
-### 1. A Running MDS with Heatwave Instance on Private VCN
+### 1. A Running MDS with Heatwave Instance on Private VCN and VCN security list is setup with 3306 
 ### 2. Cloud Shell on OCI 
 ### 3. Private VCN connectivity with Cloud Shell
 ### 4. Download the AirFlight sample data 
@@ -11,7 +11,7 @@
 1. Running MDS with Heatwave Instance on Private VCN
 
 - Login to OCI Console and Choose DB System from MySQL
-- Select the Heatwave Instance and note down the IP Address
+* Select the Heatwave Instance and note down the IP Address
 
 
 ```
@@ -19,6 +19,17 @@ Endpoint
 Connect to the DB system using a MySQL client/connector via the endpoint below. How do I connect?
 Private IP address: 10.x.y.z
 ```
+
+- Configure VCN security list
+a. On the OCI Console Menu, Choose Networking --> Virtual cloud network
+b. Choose oke-vcn in the VCN list
+c. Choose the mds-subnet-regional 
+d. Choose mds-seclist from the Security Lists
+e. Click "Add Ingress Rules"
+  * fill in Source CIDR with 10.0.0.0/16
+  * fill in Destintation Port with 3306
+  * Click Add Ingress Rules
+
 
 
 2. Open Cloud Shell
