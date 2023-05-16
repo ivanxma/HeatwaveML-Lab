@@ -1,10 +1,10 @@
 # This Lab is to import Airflight demo data into an existing Heatwave AutoML Database
 # Environment :
-## 1. A Running MDS with Heatwave Instance on Private VCN
-## 2. Cloud Shell on OCI 
-## 3. Private VCN connectivity with Cloud Shell
-## 4. Download the AirFlight sample data 
-## 5. Running mysqlsh on Cloud Shell to import the AirFlight Data
+### 1. A Running MDS with Heatwave Instance on Private VCN
+### 2. Cloud Shell on OCI 
+### 3. Private VCN connectivity with Cloud Shell
+### 4. Download the AirFlight sample data 
+### 5. Running mysqlsh on Cloud Shell to import the AirFlight Data
 ##
 
 
