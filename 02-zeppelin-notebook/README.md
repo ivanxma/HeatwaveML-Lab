@@ -2,7 +2,7 @@
 
 
 1. Start Web Browser and login to Zeppeline 
-- e.g. http://&gt;public ip&lt;/zeppelin/
+- e.g. http://&lt;public ip&gt;/zeppelin/
     [ note down the Load Balancer External IP from kubectl get svc -n ingress-nginx ]
 
 2. Create NoteBook with INTERPRETER created with previous Lab to work with Heatwave
