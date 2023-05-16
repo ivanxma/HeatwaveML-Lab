@@ -8,6 +8,6 @@ Cloud Native analytics with HeatwaveML Lab
 * [Lab 3 - Enable HW](https://oracle-livelabs.github.io/database/heatwave-cloud-analytics/workshops/freetier/index.html?lab=enable-heatwave-cluster)
 * [Lab 4 - Deploy ingress controller](https://oracle-livelabs.github.io/database/heatwave-cloud-analytics/workshops/freetier/index.html?lab=ingress-controller)
 * [Lab 9 - Deploy Zeppelin](https://oracle-livelabs.github.io/database/heatwave-cloud-analytics/workshops/freetier/index.html?lab=zeppelin)
-* [Lab 10 - MySQL Heatwave AutoML](https://github.com/ivanxma/HeatwaveML-Lab/ML.md)
+* [Lab 10 - MySQL Heatwave AutoML](https://github.com/ivanxma/HeatwaveML-Lab/blob/main/ML.md)
 
 
